@@ -1,0 +1,29 @@
+{
+  "name": "clamp-sh",
+  "owner": {
+    "name": "Clamp",
+    "email": "sidney@mail.clamp.sh"
+  },
+  "metadata": {
+    "description": "Agent skills and plugins from Clamp.",
+    "version": "0.1.2"
+  },
+  "plugins": [
+    {
+      "name": "analytics-skills",
+      "source": "./",
+      "description": "Agent skills that teach Claude, Cursor, and other AI agents to read web analytics like a senior analyst. Diagnose traffic changes, judge channel quality, and read funnels without the usual rookie mistakes. Works with any analytics source; first-class support for Clamp MCP.",
+      "version": "0.1.2",
+      "author": {
+        "name": "Clamp",
+        "email": "sidney@mail.clamp.sh"
+      },
+      "homepage": "https://clamp.sh/docs/skills",
+      "repository": "https://github.com/clamp-sh/analytics-skills",
+      "license": "MIT",
+      "category": "Analytics",
+      "keywords": ["analytics", "web-analytics", "claude-code", "skills", "agent-skills", "clamp", "mcp"],
+      "tags": ["analytics", "web-analytics", "clamp", "claude-code", "skills", "mcp"]
+    }
+  ]
+}
